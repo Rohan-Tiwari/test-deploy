@@ -4,11 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "install-server": "cd sustainable-select-backend && npm install",
-    "start-server": "cd sustainable-select-backend && node index.js",
-    "install-client": "cd sustainable-select-frontend && npm install",
-    "build-client": "cd sustainable-select-frontend && npm run build",
-    "start-client": "cd sustainable-select-frontend && npm run start"
+    "install-server": "cd Sustainable-Select-backend && npm install",
+    "start-server": "cd Sustainable-Select-backend && node index.js",
+    "install-client": "cd Sustainable-Select-frontend && npm install",
+    "build-client": "cd Sustainable-Select-frontend && npm run build",
+    "start-client": "cd Sustainable-Select-frontend && npm run start"
   },
   "keywords": [],
   "author": "",

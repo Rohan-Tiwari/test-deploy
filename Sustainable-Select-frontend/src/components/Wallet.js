@@ -12,7 +12,7 @@ const Wallet = ({ userId }) => {
     try {
       console.log('inifonafin');
         console.log(userId);
-      const response = await axios.get(`http://localhost:5000/api/wallets/wallet/${userId}`);
+      const response = await axios.get(`https://test-backend-1-6top.onrender.com/api/wallets/wallet/${userId}`);
       setBalance(response.data.balance);
     } catch (error) {
       console.error('Error fetching wallet balance:', error);
@@ -22,7 +22,7 @@ const Wallet = ({ userId }) => {
   const handleTopUp = async () => {
     try {
       console.log(topUpAmount);
-      await axios.post(`http://localhost:5000/api/wallets/wallet/topup/${userId}`, { 
+      await axios.post(`https://test-backend-1-6top.onrender.com/api/wallets/wallet/topup/${userId}`, { 
         amount: parseInt(topUpAmount) 
       });
       fetchWalletBalance(); // Refresh the wallet balance after top-up

@@ -1,7 +1,7 @@
 // src/components/Wallet.js
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import "./Wallet.css";
+//import "./Wallet.css";
 
 const Wallet = ({ userId }) => {
     userId ="65316df470d14d00113e3ae0";

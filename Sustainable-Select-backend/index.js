@@ -3,7 +3,7 @@ const app = express()
 require("dotenv").config()
 const cors = require("cors")
 
-app.get("/",(req,res)=>{
+app.get("/api",(req,res)=>{
     res.send("hello world")
 })
 
